@@ -4,7 +4,7 @@ Date: July 21, 2020
 
 # Attempt 1
 
-`Array.prototype.splice()` can have O(N) at worst case scenarios. Thus, this might not be the optimal solution.
+`Array.prototype.splice()` can have O(N) at worst case scenarios. Thus, this might not be the optimal solution. At the sacrifice of performance, this uses O(N) space.
 
 ```js
 /**
@@ -28,7 +28,7 @@ Space complexity: O(N)
 
 # Attempt 2
 
-To shorten time complexity, we iterate over an empty array and assign the left half of the `nums` array to even indices and right half of the `nums` array to odd indices.
+To shorten the time complexity, we iterate over an empty array and assign the left half of the `nums` array to even indices and right half of the `nums` array to odd indices. At the sacrifice of space, this uses O(N) time complexity.
 
 ```js
 /**
