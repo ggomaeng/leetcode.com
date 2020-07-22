@@ -24,3 +24,6 @@ var shuffle = function(nums, n) {
     return result;
 };
 ```
+
+>> Should solve the problem again.
+ 
