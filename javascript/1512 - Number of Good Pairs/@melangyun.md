@@ -25,9 +25,3 @@ var numIdenticalPairs = function(nums) {
 Time complexity: O(N^2)
 
 Space complexity: O(N+1)
-
-# Attemp 2
-
-```javascript
-
-```
