@@ -15,3 +15,7 @@ var defangIPaddr = function(address) {
 };
 
 ```
+
+Time complexity: O(N)
+
+Space complexity: O(N)

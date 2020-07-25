@@ -17,4 +17,7 @@ var runningSum = function(nums) {
     });
 };
 ```
- 
+
+Time complexity: O(N)
+
+Space complexity: O(2N+1)

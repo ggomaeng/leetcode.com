@@ -20,3 +20,7 @@ var numJewelsInStones = function(J, S) {
     return count;
 };
 ```
+
+Time complexity : O(N^2)
+
+Space complexity : O(2N + 1)

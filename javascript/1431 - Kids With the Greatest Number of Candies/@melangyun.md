@@ -15,3 +15,7 @@ var kidsWithCandies = function(candies, extraCandies) {
     return candies.map(curval => curval + extraCandies >= max );
 };
 ```
+
+Time complexity: O(N)
+
+Space complexity: O(2N)

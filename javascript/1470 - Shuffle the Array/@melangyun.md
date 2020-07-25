@@ -25,5 +25,7 @@ var shuffle = function(nums, n) {
 };
 ```
 
->> Should solve the problem again.
-Â 
+Time complexity: O(N)
+
+Space complexity: O(2N + 1)
+ 

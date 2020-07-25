@@ -21,3 +21,7 @@ var smallerNumbersThanCurrent = function(nums) {
     })
 };
 ```
+
+Time complexity: O(N^2)
+
+Space complexity: O(2N)
