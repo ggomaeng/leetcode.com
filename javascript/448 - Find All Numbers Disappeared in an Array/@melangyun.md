@@ -4,7 +4,8 @@ Date : July 27, 2020
 
 # Attempt 1
 
-
+checkObj를 만들어 넣고, key값으로 nums(Array)의 배열을 추가한다.<br>
+object에 key로 array가 존재하는지 확인하고, 없다면 배열에 담아 return
 
 ```js
 /**
