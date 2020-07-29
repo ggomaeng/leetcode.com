@@ -10,19 +10,16 @@ Date: July 29, 2020
  * @return {number}
  */
 var balancedStringSplit = function(s) {
-    let count = 0;
-    for( let i = 0 ; i < s.length - 1 ; i +=1 ){
-        const str = s[i] + s[i+1];
-        if(str === "RL" || str == "LR" ){
-            count++;
-            i++;
-        }
-    }
-    return count;
+    let checker = 0;
+    return [...s].reduce((acc,val) => {
+        val === "L" ? checker++ : checker--;
+        if(!checker) acc++;
+        return acc;
+    },0)
 };
 ```
 
 
 Time complexity: O(N)
 
-Space complexity: O(N+1)
+Space complexity: O(N)
