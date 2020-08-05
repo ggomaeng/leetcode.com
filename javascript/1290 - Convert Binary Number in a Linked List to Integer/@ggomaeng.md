@@ -1,0 +1,34 @@
+Author: @ggomaeng
+
+Date: August 5, 2020
+
+# Attempt 1
+
+```js
+/**
+ * Definition for singly-linked list.
+ * function ListNode(val, next) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.next = (next===undefined ? null : next)
+ * }
+ */
+/**
+ * @param {ListNode} head
+ * @return {number}
+ */
+var getDecimalValue = function(head) {
+    let str = "";
+
+    while(head) {
+        str += head.val;
+        head = head.next;
+    }
+
+    return parseInt(str, 2);
+};
+```
+
+
+Time complexity: O(N)
+
+Space complexity: O(1)
