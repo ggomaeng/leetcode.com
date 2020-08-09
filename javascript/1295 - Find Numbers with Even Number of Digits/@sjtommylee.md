@@ -4,7 +4,7 @@ Date: Aug 05, 2020
 
 # Attempt 1
 
-createa a new array filteredNums using filter() to search through the array of numbers, check if the length of the string is even using % 2.
+create a a new array filteredNums using filter() to search through the array of numbers, check if the length of the string is even using % 2.
 //nums =  [12,345,2,6,7896]
 //filteredNums =  [12, 7896]
 
