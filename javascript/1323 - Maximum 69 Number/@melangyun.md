@@ -39,3 +39,7 @@ var maximum69Number  = function(num) {
     return +(num+"").replace("6","9");
 };
 ```
+
+Time complexity: O(1) ~ O(N)
+
+Space complexity: O(N)
