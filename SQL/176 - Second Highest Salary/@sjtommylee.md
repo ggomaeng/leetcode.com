@@ -48,6 +48,7 @@ FROM
 WHERE a.Salary < b.Salary
 ```
 
+
 Time complexity: O(N)
 
 Space complexity: O(N)
