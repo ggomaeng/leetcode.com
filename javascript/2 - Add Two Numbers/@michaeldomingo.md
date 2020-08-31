@@ -2,6 +2,8 @@ Author: @michaeldsdomingo
 
 Date: August 30, 2020
 
+# Attempt 3
+
 /*
 
  * Definition for singly-linked list.
@@ -23,9 +25,12 @@ var addTwoNumbers = function(l1, l2) {
     do {
         let val1 = l1 ? l1.val : 0;
         let val2 = l2 ? l2.val : 0;
+
         current.val = current.val + val1 + val2;
+
         l1 = l1 ? l1.next : null;
         l2 = l2 ? l2.next : null;
+
         if (current.val >= 10) {
             current.val = current.val % 10;
             current.next = new ListNode(1);
