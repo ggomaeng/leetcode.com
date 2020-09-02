@@ -71,3 +71,7 @@ public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
     }
     return dummyHead.next;
 }
+
+Time Complexity: O(max(m,n))
+
+Space Complexity: O(max(m,n))
