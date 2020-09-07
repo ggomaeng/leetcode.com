@@ -14,17 +14,18 @@ iterate through the array nums, if the first / last element to be compared do no
  * @param {number} x
  * @return {boolean}
  */
-var isPalindrome = function(x) {
+
+const isPalindrome = (x) => {
     let num = x.toString();
     let nums = num.split('');
 
     for (let c of nums) {
-        if (c != nums.pop()) {
+        if(c != nums.pop()) {
             return false;
         }
     }
     return true;
-};
+}
 ```
 
 Time complexity: O(N)
