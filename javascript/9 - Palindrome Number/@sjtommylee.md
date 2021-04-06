@@ -2,12 +2,11 @@ Author: @sjtommylee
 
 Date: Aug 05, 2020
 
-
 # Attempt 1
 
 convert numbers into a string
-return a new array nums with comma separated values 
-iterate through the array nums, if the first / last element to be compared do not match, return false. 
+return a new array nums with comma separated values
+iterate through the array nums, if the first / last element to be compared do not match, return false.
 
 ```js
 /**
@@ -15,16 +14,16 @@ iterate through the array nums, if the first / last element to be compared do no
  * @return {boolean}
  */
 const isPalindrome = (x) => {
-    let num = x.toString();
-    let nums = num.split('');
+  let num = x.toString();
+  let nums = num.split("");
 
-    for (let c of nums) {
-        if(c != nums.pop()) {
-            return false;
-        }
+  for (let c of nums) {
+    if (c != nums.pop()) {
+      return false;
     }
-    return true;
-}
+  }
+  return true;
+};
 ```
 
 Time complexity: O(N)
